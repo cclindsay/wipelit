@@ -1,5 +1,7 @@
 # wipelit   
+
 Wipe files and drives securely with the contents of public domain books.
+
 Because filling hard drives with zeros is really no fun.
 
 ```
@@ -17,3 +19,12 @@ optional arguments:
                         The number of rounds to write the files
   -w, --wipefree        Wipe the free space by creating a large file
 ```
+
+## TODO
+
+- Refactor original logic
+- Remove references to original function of parent project
+- Implement safety prompts
+- Import libraries to pull books from sources:
+    - Project Gutenberg
+    - Archive.org
